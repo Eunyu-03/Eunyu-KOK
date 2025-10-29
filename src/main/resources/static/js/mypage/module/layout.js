@@ -1209,12 +1209,19 @@ const myPageLayout = (() => {
                     extension = "default";
                 }
                 html+=`<li class="form-item" data-file-id="${fileId}">
-                                            <div class="file-container">
+                                            <div class="file-container" style="width: 88%;">
                                                 <div class="file-icon">
                                                     <img src="/images/experience/icon_file_${extension}.svg" alt="">
                                                 </div>
-                                                <div class="file-info">
-                                                    <p class="file-label">${originName}</p>
+                                                <div class="file-info" style="width: 80%;">
+                                                    <p class="file-label" style="
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 80%; */
+    display:  -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+">${originName}</p>
 <!--                                                    <span class="file-name">파일이름.xlsx</span>-->
                                                 </div>
                                             </div>
