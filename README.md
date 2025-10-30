@@ -49,11 +49,37 @@
 
 ## 🗂️ 4. ERD
 
+- DML 문법으로 실제 데이터를 직접 `insert`, `update`, `delete`, `select` 하고 확인했다.
+- 테이블 간의 관계를 고려하여 ERD를 구성하였다.
+
 <img width="9038" height="6284" alt="image" src="https://github.com/user-attachments/assets/96b929b1-6316-4b98-800d-e9f344d79501" />
 
 ---
 
-## 💼 5. 담당 업무
+## 🎨 5. UI/UX 화면 설계
+
+### 🔍 벤치마킹 웹 사이트: 로켓펀치
+
+- HTML, CSS, JS를 활용하여 로켓펀치 사이트를 클론 코딩하였다.
+- JS로 유효성 검사 등 동적 이벤트를 추가했다.
+
+#### 🖼️ 예시 이미지
+
+<p align="center">
+  <img width="1915" height="905" alt="Image" src="https://github.com/user-attachments/assets/688a1d3f-b641-42ec-bb95-a82bb123cfca" />
+<img width="1900" height="898" alt="Image" src="https://github.com/user-attachments/assets/da9ed8fa-99e5-4541-9249-f0b335337ee1" />
+</p>
+
+#### 🧪 클론 코딩
+
+<p align="center">
+  <img width="1917" height="902" alt="Image" src="https://github.com/user-attachments/assets/5efbeca6-e188-4088-a81a-d6448d006942" />
+<img width="1898" height="904" alt="Image" src="https://github.com/user-attachments/assets/8948f1d2-839e-46ee-ad19-fa1e510546f9" />
+</p>
+
+---
+
+## 💼 6. 담당 업무
 
 ### 🎨 프론트엔드
 
@@ -111,7 +137,7 @@
 
 ---
 
-## 🧩 6. 트러블 슈팅
+## 🧩 7. 트러블 슈팅
 
 ### ⚠️ 오류 발생
 
@@ -154,7 +180,33 @@ finNoticeById의 파라미터인 id로 키 값을 변경하였다. 그 결과 �
 
 ---
 
-## ✨ 7. 느낀 점
+## 🧪 8. QA 테스트
+
+- 기능별로 테스트 케이스를 작성하고,  QA 테스트를 진행하였다.
+- 체험 공고 필터링, 지원 기능, 마이페이지 접근 등 주요 기능에 대해 반복 테스트를 수행하여 안정성을 확보하였다.
+- 테스트 결과를 QA 문서로 정리하여 팀원들과 공유하였다.
+
+<img width="968" height="364" alt="Image" src="https://github.com/user-attachments/assets/f05c3c15-487d-4a56-b3c9-5184eeab2a3b" />
+
+
+---
+
+## 📱 9. 앱 전환 - Web View
+
+- `react-native` 기술로 모바일 화면을 구축하였다.
+- 웹 화면을 앱에 통합하여 모바일 환경에서도 동일한 사용자 경험을 제공하도록 설계하였다.
+- 미디어 쿼리를 통해 화면 크기에 따라 레이아웃이 유동적으로 변경되도록 설정하였으며, 버튼 크기와 폰트 크기를 조정해 터치 친화적인 UI를 구현하였다.
+- 로그인 세션을 앱과 웹 간에 공유할 수 있도록 API 구조를 통합하여 사용자 편의성을 높였다.
+- 실제 기기에서 테스트하며 반응형 디자인의 문제점을 발견하고, 이를 해결하기 위해 CSS 조건 분기와 플랫폼별 스타일 조정을 적용하였다.
+
+<p align="center">
+  <img width="399" height="868" alt="Image" src="https://github.com/user-attachments/assets/617bf017-2f19-418a-b4e0-4784a5b3162c" width="400" />
+<img width="397" height="864" alt="Image" src="https://github.com/user-attachments/assets/b2575e84-d9cf-4997-b1fc-6953527ad442" width="400" />
+</p>
+
+---
+
+## ✨ 10. 느낀 점
 
 ### 🧠 기획: 탄탄한 기획이 순조로운 작업으로 이어진다
 
