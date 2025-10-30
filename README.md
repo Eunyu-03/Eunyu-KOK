@@ -81,9 +81,9 @@
 
 ## 💼 6. 담당 업무
 
-### 🎨 프론트엔드
+### 🎯 프론트엔드
 
-<img width="1527" height="550" alt="image" src="https://github.com/user-attachments/assets/ff688077-9f7b-4167-aefc-74efe623fcb0" />
+<img width="1015" height="403" alt="Image" src="https://github.com/user-attachments/assets/6ff8c100-3670-43bf-a98c-5a7e47cbda75" />
 
 기업 콘솔
 - 기업 홈(공고와 광고 관련 정보 표시)
@@ -98,9 +98,9 @@
 - 광고 목록
 - 결제 내역
 
-### 🔧 백엔드
+### 🛠️ 백엔드
 
-<img width="2381" height="375" alt="image" src="https://github.com/user-attachments/assets/6137c258-2264-4a06-8d6f-6c52f687c773" />
+<img width="1839" height="311" alt="Image" src="https://github.com/user-attachments/assets/c44a8236-96fe-40ac-9068-b29b9b57855f" />
 
 체험 공고
 - 체험 공고 목록 불러오기
